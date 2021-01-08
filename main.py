@@ -2,8 +2,11 @@
 
 from max.client import Client
 
+API_KEY = ""
+API_SECRET = ""
+
 if __name__ == '__main__':
-    client = Client('PUY_MY_API_KEY_HERE', 'PUY_MY_API_SECRET_HERE')
+    client = Client(API_KEY, API_SECRET)
 
     try:
         ''' Public (Read) '''
